@@ -11,8 +11,9 @@ header.masthead {
   background: $theme-success;
   img {
     display: block;
-
     margin: 0 auto 20px;
+    border-radius: 50%;
+    @include animation('floating-animation infinite 2s ease-in-out');
   }
   .intro-text {
     .name {

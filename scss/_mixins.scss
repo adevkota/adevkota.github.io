@@ -49,3 +49,35 @@
     background-color: $color;
   }
 }
+
+@mixin translateY($value) {
+  -moz-transform: translateY($value);
+  -ms-transform: translateY($value);
+  -webkit-transform: translateY($value);
+  transform: translateY($value)
+}
+
+@mixin keyframes($animation-name) {
+  @-moz-keyframes #{$animation-name} {
+    @content
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-webkit-keyframes #{$animation-name} {
+    @content
+  }
+  @keyframes #{$animation-name} {
+    @content
+  }  
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};   
+}
+
+
