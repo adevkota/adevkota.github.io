@@ -49,7 +49,7 @@ hr.star-primary:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005'; }
+  content: '\e800'; }
 
 hr.star-light {
   border-color: white; }
@@ -197,6 +197,21 @@ footer {
     padding: 25px 0;
     background-color: #2c3e50; }
 
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center; }
+
+.fa-linkedin:before {
+  content: "\f0e1"; }
+
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -335,3 +350,10 @@ header.masthead {
 .btn:active,
 .btn:focus {
   outline: none; }
+
+@font-face {
+  font-family: 'fontawesome';
+  src: url("../vendor/fontello/font/fontello.eot?34012079");
+  src: url("../vendor/fontello/font/fontello.eot?34012079#iefix") format("embedded-opentype"), url("../vendor/fontello/font/fontello.woff?34012079") format("woff"), url("../vendor/fontello/font/fontello.ttf?34012079") format("truetype"), url("../vendor/fontello/font/fontello.svg?34012079#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }

@@ -49,7 +49,7 @@ hr.star-primary:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\e800';
 }
 
 hr.star-light {
@@ -148,3 +148,20 @@ footer {
   }
 }
 
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+}
