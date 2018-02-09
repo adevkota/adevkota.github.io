@@ -6,3 +6,14 @@
 // @import "portfolio.scss";
 // @import "contact.scss";
 @import "bootstrap-overrides.scss";
+
+@font-face {
+	font-family: 'fontawesome';
+	src: url('../vendor/fontello/font/fontello.eot?34012079');
+	src: url('../vendor/fontello/font/fontello.eot?34012079#iefix') format('embedded-opentype'),
+		  url('../vendor/fontello/font/fontello.woff?34012079') format('woff'),
+		  url('../vendor/fontello/font/fontello.ttf?34012079') format('truetype'),
+		  url('../vendor/fontello/font/fontello.svg?34012079#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+ }
