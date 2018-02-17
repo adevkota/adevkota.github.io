@@ -1,8 +1,27 @@
 // Global styling for this template
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+  box-sizing: inherit;
+}
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Roboto, Arial, sans-serif;
   overflow-x: hidden;
   min-height: 100vh;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  box-sizing: inherit;
 }
 
 p {
@@ -54,6 +73,8 @@ hr.star-primary:after {
 
 hr.star-light {
   border-color: white;
+  height: 0;
+  overflow: visible;
 }
 hr.star-light:after {
   color: white;
@@ -164,4 +185,8 @@ footer {
 
 .fa-linkedin:before {
   content: "\f0e1";
+}
+
+.text-center {
+  text-align: center!important;
 }

@@ -3,10 +3,29 @@
  * Copyright 2013-2018 ashutosh devkota
  * Licensed under ISC (https://github.com/BlackrockDigital/adevkota/blob/master/LICENSE)
  */
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent; }
+
+*, ::after, ::before {
+  box-sizing: inherit; }
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lato', Roboto, Arial, sans-serif;
   overflow-x: hidden;
-  min-height: 100vh; }
+  min-height: 100vh;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  box-sizing: inherit; }
 
 p {
   font-size: 20px; }
@@ -52,7 +71,9 @@ hr.star-primary:after {
   content: '\e800'; }
 
 hr.star-light {
-  border-color: white; }
+  border-color: white;
+  height: 0;
+  overflow: visible; }
 
 hr.star-light:after {
   color: white;
@@ -212,6 +233,9 @@ footer {
 .fa-linkedin:before {
   content: "\f0e1"; }
 
+.text-center {
+  text-align: center !important; }
+
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -259,6 +283,23 @@ header.masthead {
     color: #18BC9C;
     border: solid 2px white;
     background: white; }
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: .25rem;
+  transition: all .15s ease-in-out; }
 
 .btn-primary {
   font-weight: 700;
