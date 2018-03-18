@@ -38,7 +38,8 @@ a:active,
 a:focus,
 a:hover {
   color: #18BC9C;
-  outline: none; }
+  outline: none;
+  font-weight: 600; }
 
 h1,
 h2,
