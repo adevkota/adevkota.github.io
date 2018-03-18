@@ -99,7 +99,9 @@ section.success {
 @media (min-width: 1100px) {
   body {
     margin: 5em auto;
-    max-width: 1000px; } }
+    max-width: 1000px; }
+  p {
+    font-size: 1.75rem; } }
 
 .social,
 .scroll-top {
