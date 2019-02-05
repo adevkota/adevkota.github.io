@@ -1,3 +1,12 @@
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	overflow-x: hidden;
@@ -47,4 +56,16 @@ a, a.active, a:active, a:focus, a:hover {
 	color: #09c;
 	outline: 0;
 	font-weight: 600;
+}
+
+
+@media (min-width: 1100px) {
+	body {
+		margin: 5em auto;
+		max-width: 1000px;
+	}
+
+	p {
+		font-size: 1.75rem;
+ 	}
 }
