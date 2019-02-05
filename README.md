@@ -1,1 +1,0 @@
-# https://adevkota.me
