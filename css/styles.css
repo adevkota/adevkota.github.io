@@ -53,7 +53,8 @@ p {
 	font-size: 1.25rem;
 }
 a, a.active, a:active, a:focus, a:hover {
-	color: #09c;
+/* 	color: #09c; */
+	color: #1d824c;
 	outline: 0;
 	font-weight: 600;
 }
