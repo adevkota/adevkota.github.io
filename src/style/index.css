@@ -68,7 +68,7 @@ a, a.active, a:active, a:focus, a:hover {
 }
 
 
-/* #app {
-	height: 100%;
-	margin: 30px;
-} */
+#app {
+	max-width: 800px;
+	margin: 0 auto;
+}

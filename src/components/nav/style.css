@@ -1,0 +1,7 @@
+.nav {
+   display: flex;
+
+}
+.nav a{
+   padding-left: 1rem;
+}
