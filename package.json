@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "analyze": "npm run build && source-map-explorer 'build/*.js'",
-    "deploy": "gh-pages -d build -b master",
+    "deploy": "cp CNAME build/ && gh-pages -d build -b master",
     "predeploy": "npm run build",
     "start": "per-env",
     "start:production": "npm run -s serve",
