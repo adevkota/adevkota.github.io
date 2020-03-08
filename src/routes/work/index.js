@@ -19,7 +19,8 @@ const Work = () => {
 								"/assets/portfolio/pampered_chef/3.png",
 								"/assets/portfolio/pampered_chef/4.png",
 								"/assets/portfolio/pampered_chef/5.png",
-							]
+							],
+							tech: "React, Redux, Indexed DB, Create React App, Jest"
 						}} />
 				</div>
 				<div className={style.tileWrapper}>
@@ -34,19 +35,22 @@ const Work = () => {
 								"/assets/portfolio/pampered_chef/3.png",
 								"/assets/portfolio/pampered_chef/4.png",
 								"/assets/portfolio/pampered_chef/5.png",
-							]
+							],
+							tech: "Angular (8), Jasmine, Karma, Protractor, Cucumber"
 						}}/>
 				</div>
 				<div className={style.tileWrapper}>
 					<Tile 
 						{...{
 							shortDescription: "Managed Care Market Portal",
+							projectName: "Managed Care",
 							companyName: "RR Donnelly",
 							imageUrls: [
 								"/assets/portfolio/rrd/1.png",
 								"/assets/portfolio/rrd/2.png",
 								"/assets/portfolio/rrd/3.png",
-							]
+							],
+							tech: "Angular (1), Mocha, Sinon, Protractor, d3"
 						}}/>
 				</div>
 			</div>

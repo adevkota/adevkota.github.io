@@ -1,0 +1,57 @@
+.Modal{
+	position: fixed;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 100;
+   /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.backdrop{
+   cursor: default;
+   position: fixed;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(0,0,0,0.6);
+}
+
+.modalBox{
+   background-color: white;
+   width:100%;
+   max-width: 600px;
+   max-height: 100vh;
+   overflow-y: auto;
+   margin: 0 auto;
+   position: relative;
+}
+
+.currentImage{
+   max-width: 80%;
+   /* border: 1px solid lightgray; */
+   /* border-radius: 5px; */
+   box-shadow: bisque;
+   margin: 0 auto;
+   box-shadow: 0px 0px 12px 2px #888888;
+}
+
+.currentImage img{
+   width: 100%;
+}
+
+.title,
+.tech {
+   display: flex;
+   justify-content: center;
+   padding: 15px;
+}
+
+.tech {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.tech span{
+   text-align: center;
+}
