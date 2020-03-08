@@ -1,0 +1,53 @@
+.tile{
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	width:100%;
+}
+.hero,
+.meta {
+	padding: 10px;
+}
+
+.hero {
+	position: relative;
+	max-width: 100%;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.meta{
+	flex: 1;
+	border-top: 1px solid lightgray;
+	font-family: 'Courier New',Courier,monospace;
+	display: flex;
+	flex-direction: column;
+}
+
+.meta .projectName {
+	flex: 1;
+}
+
+.previewImage {
+	width: 100%;
+}
+.shortDescription {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	color: white;
+	background-color: rgba(0,0,0, 0.8);
+	color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.shortDescription span {
+	text-align: center;
+}

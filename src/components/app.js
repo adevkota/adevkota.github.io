@@ -8,6 +8,7 @@ import { createHashHistory } from 'history';
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Resume from '../routes/resume';
+import Work from '../routes/work';
 
 export default class App extends Component {
 	
@@ -27,6 +28,7 @@ export default class App extends Component {
 				<Router onChange={this.handleRoute} history={createHashHistory()}>
 					<Home path="/" />
 					<Resume path = "/resume"/>
+					<Work path = "/work" />
 				</Router>
 			</div>
 		);

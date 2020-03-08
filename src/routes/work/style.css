@@ -1,0 +1,16 @@
+.work {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+.tileWrapper{
+	flex: 0 1 50%;
+	padding: 5px;
+	display: flex;
+}
+
+@media (min-width: 600px) {
+	.tileWrapper {
+		flex: 0 1 33.33%
+	}
+}
