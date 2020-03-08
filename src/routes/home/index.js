@@ -10,8 +10,19 @@ const Home = () => (
 			<p>
 			Full stack Javascript engineer with a focus on front end side of things.
 			</p>
-			<p>
+			{/* <p>
 			My current interest is in building performant web apps that takes into account the principles of Human-Computer Interaction.
+			</p> */}
+			<p>
+				Designed and built websites using HTML, CSS/SCSS, JavaScript/TypeScript, Angular, React, Redux.
+			</p>
+			<p>
+				I also have experience with node/express and familiarity with python.
+			</p>
+			<p>
+				Contact me on <a target="_self"href="https://www.linkedin.com/in/tosh-sharma" native>LinkedIn</a> or 
+				check out my <a target="_self"href="https://github.com/adevkota" native>GitHub</a>.
+			
 			</p>
 		</section>
 		</div>

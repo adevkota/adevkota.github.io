@@ -12,8 +12,6 @@ const Nav = () => {
 		</nav> */}
 			<Link activeClassName={style.active} href="/">Home</Link>
 			<Link activeClassName={style.active} href="/resume">Resume</Link>
-			<a target="_self"href="https://github.com/adevkota" native>GitHub</a>
-			<a target="_self"href="https://www.linkedin.com/in/tosh-sharma" native>LinkedIn</a>
 		</div>
 	);
 }
