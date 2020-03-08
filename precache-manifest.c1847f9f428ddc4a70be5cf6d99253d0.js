@@ -24,35 +24,47 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
-    "revision": "632a5f712c5b16306174",
-    "url": "/bundle.602aa.esm.js"
+    "revision": "5b073a104246b3c1c40f",
+    "url": "/bundle.5b073.js"
   },
   {
-    "revision": "632a5f712c5b16306174",
+    "revision": "5b073a104246b3c1c40f",
     "url": "/bundle.9f062.css"
   },
   {
-    "revision": "eb88b447c3bb16fc6c78be65721b2f7e",
+    "revision": "219da45f7570527f7505fd9317f92e37",
     "url": "/index.html"
   },
   {
     "revision": "bb23adb3c9bfbb7f047f",
-    "url": "/polyfills.06b13.esm.js"
+    "url": "/polyfills.bb23a.js"
   },
   {
     "revision": "7efc2dc04e5b389548bd",
-    "url": "/route-home.chunk.11eeb.esm.js"
+    "url": "/route-home.chunk.7efc2.js"
   },
   {
     "revision": "7efc2dc04e5b389548bd",
     "url": "/route-home.chunk.b2113.css"
   },
   {
-    "revision": "5ab4cea29e321442dcb4",
+    "revision": "64aae2deeb01d90b530c",
+    "url": "/route-resume.chunk.64aae.js"
+  },
+  {
+    "revision": "64aae2deeb01d90b530c",
     "url": "/route-resume.chunk.ee453.css"
   },
   {
-    "revision": "5ab4cea29e321442dcb4",
-    "url": "/route-resume.chunk.fc01f.esm.js"
+    "revision": "13b82ed03d648451c57be206f75f0216",
+    "url": "/sw-debug.js"
+  },
+  {
+    "revision": "6eff192b9fc8eb6455fe955393c690a4",
+    "url": "/sw-esm.js"
+  },
+  {
+    "revision": "bfc5bd18885255982238f3628770f48d",
+    "url": "/sw.js"
   }
 ]);
