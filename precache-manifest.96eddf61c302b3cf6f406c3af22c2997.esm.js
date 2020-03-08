@@ -24,15 +24,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
-    "revision": "1af1486838b71fea7146",
+    "revision": "5b073a104246b3c1c40f",
+    "url": "/bundle.0d294.esm.js"
+  },
+  {
+    "revision": "5b073a104246b3c1c40f",
     "url": "/bundle.9f062.css"
   },
   {
-    "revision": "1af1486838b71fea7146",
-    "url": "/bundle.dbc31.esm.js"
-  },
-  {
-    "revision": "192e64b35cca9a4d12c61a7540b323df",
+    "revision": "219da45f7570527f7505fd9317f92e37",
     "url": "/index.html"
   },
   {
@@ -48,11 +48,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/route-home.chunk.b2113.css"
   },
   {
-    "revision": "ff2cdf0d866bd28632e8",
-    "url": "/route-resume.chunk.50771.esm.js"
+    "revision": "64aae2deeb01d90b530c",
+    "url": "/route-resume.chunk.4eb37.esm.js"
   },
   {
-    "revision": "ff2cdf0d866bd28632e8",
+    "revision": "64aae2deeb01d90b530c",
     "url": "/route-resume.chunk.ee453.css"
   }
 ]);
