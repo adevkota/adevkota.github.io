@@ -7,7 +7,7 @@ const Resume = () => {
    const iframe = useRef(null);
    return (
       <Fragment>
-         <Header />
+         {/* <Header /> */}
          <div class={style.pdfLinkWrapper}>
 
          <a href="https://adevkota.me/resume/Ashutosh%20Devkota.pdf" target="_blank">Pdf Version ↗</a>
