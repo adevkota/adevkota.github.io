@@ -3,7 +3,7 @@ import { Router } from 'preact-router';
 import { createHashHistory } from 'history';
 
 
-import Header from './header';
+// import Header from './header';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
@@ -22,7 +22,8 @@ export default class App extends Component {
 	render() {
 		return (
 			<div id="app">
-				<Header /> 
+				{/* header is being used per route because react no-prerender does not load styles for anything outside of a route */}
+				{/* <Header />  */}
 				<Router onChange={this.handleRoute} history={createHashHistory()}>
 					<Home path="/" />
 					<Resume path = "/resume"/>
