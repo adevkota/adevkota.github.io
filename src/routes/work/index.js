@@ -14,11 +14,11 @@ const Work = () => {
 							projectName:"Shareable Catalog",
 							companyName: "Pampered Chef",
 							imageUrls: [
-								"/assets/portfolio/pampered_chef/1.png",
-								"/assets/portfolio/pampered_chef/2.png",
-								"/assets/portfolio/pampered_chef/3.png",
-								"/assets/portfolio/pampered_chef/4.png",
-								"/assets/portfolio/pampered_chef/5.png",
+								"/assets/portfolio/pampered_chef/offline_catalog/1.png",
+								"/assets/portfolio/pampered_chef/offline_catalog/2.png",
+								"/assets/portfolio/pampered_chef/offline_catalog/3.png",
+								"/assets/portfolio/pampered_chef/offline_catalog/4.png",
+								"/assets/portfolio/pampered_chef/offline_catalog/5.png",
 							],
 							tech: "React, Redux, Indexed DB, Create React App, Jest"
 						}} />
