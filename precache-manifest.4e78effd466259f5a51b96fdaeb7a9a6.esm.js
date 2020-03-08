@@ -24,24 +24,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
-    "revision": "1b03c969964e059fa46d73463685dd91",
-    "url": "/assets/portfolio/pampered_chef/1.png"
+    "revision": "684f9758532676203a5db691c386dc4f",
+    "url": "/assets/portfolio/pampered_chef/offline_catalog/1.png"
   },
   {
-    "revision": "0bd96a7396139bd305f6b1eca9706bd0",
-    "url": "/assets/portfolio/pampered_chef/2.png"
+    "revision": "4cd3529d182c5b2030878766cb31abee",
+    "url": "/assets/portfolio/pampered_chef/offline_catalog/2.png"
   },
   {
-    "revision": "c48d3e3a47681eaf2e83352580f7d053",
-    "url": "/assets/portfolio/pampered_chef/3.png"
+    "revision": "df06c154e5a11580a25b2bdc0cdb17a8",
+    "url": "/assets/portfolio/pampered_chef/offline_catalog/3.png"
   },
   {
-    "revision": "c7775209e4a25eb77d1a7f0f4dc11310",
-    "url": "/assets/portfolio/pampered_chef/4.png"
+    "revision": "1bf2dcdfcf47d475853c4da713e5693a",
+    "url": "/assets/portfolio/pampered_chef/offline_catalog/4.png"
   },
   {
-    "revision": "0eb3fe636c51645ad400fd47563ea1ab",
-    "url": "/assets/portfolio/pampered_chef/5.png"
+    "revision": "fe4ed6ddc12eebdfa891856af1e43fe0",
+    "url": "/assets/portfolio/pampered_chef/offline_catalog/5.png"
   },
   {
     "revision": "e71438b074c65e0bfbb95b96fc31541a",
@@ -56,15 +56,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/portfolio/rrd/3.png"
   },
   {
-    "revision": "3aeb248229b43e576473",
-    "url": "/bundle.11571.esm.js"
+    "revision": "507ea3964050974611f4",
+    "url": "/bundle.5c65f.esm.js"
   },
   {
-    "revision": "3aeb248229b43e576473",
+    "revision": "507ea3964050974611f4",
     "url": "/bundle.9f062.css"
   },
   {
-    "revision": "7fad19114d243f019daabca7bf0dadb8",
+    "revision": "af3d5b97a0727b08bbf0629ed9e03a26",
     "url": "/index.html"
   },
   {
@@ -88,11 +88,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/route-resume.chunk.d38c9.css"
   },
   {
-    "revision": "f87b8954386a5cbfcbe9",
+    "revision": "9367cd052f1fb48c7021",
     "url": "/route-work.chunk.3dfe0.css"
   },
   {
-    "revision": "f87b8954386a5cbfcbe9",
-    "url": "/route-work.chunk.748a6.esm.js"
+    "revision": "9367cd052f1fb48c7021",
+    "url": "/route-work.chunk.a543d.esm.js"
   }
 ]);
