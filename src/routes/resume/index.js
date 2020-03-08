@@ -16,7 +16,7 @@ const Resume = () => {
 }
 
 function resizeIframe(obj) {
-   obj.current.style.height = obj.current.contentWindow.document.documentElement.scrollHeight + 'px';
+   obj.current.style.height = (obj.current.contentWindow.document.documentElement.scrollHeight + 60)+ 'px';
  }
 
 export default Resume;
