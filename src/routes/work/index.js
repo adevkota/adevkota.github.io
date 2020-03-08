@@ -30,11 +30,9 @@ const Work = () => {
 							projectName:"Consultant's Corner",
 							companyName: "Pampered Chef",
 							imageUrls: [
-								"/assets/portfolio/pampered_chef/1.png",
-								"/assets/portfolio/pampered_chef/2.png",
-								"/assets/portfolio/pampered_chef/3.png",
-								"/assets/portfolio/pampered_chef/4.png",
-								"/assets/portfolio/pampered_chef/5.png",
+								"/assets/portfolio/pampered_chef/consultants_corner/1.png",
+								"/assets/portfolio/pampered_chef/consultants_corner/2.png",
+								"/assets/portfolio/pampered_chef/consultants_corner/3.png",
 							],
 							tech: "Angular (8), Jasmine, Karma, Protractor, Cucumber"
 						}}/>
