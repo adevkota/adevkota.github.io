@@ -24,6 +24,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/icons/mstile-150x150.png"
   },
   {
+    "revision": "56f0af3e694ea7f348f4e1b3ae88a3b1",
+    "url": "/assets/portfolio/pampered_chef/consultants_corner/1.png"
+  },
+  {
+    "revision": "a453a8e5c7289acf16465e273ef91230",
+    "url": "/assets/portfolio/pampered_chef/consultants_corner/2.png"
+  },
+  {
+    "revision": "4834cf4f6403944c9b9a7a6362f9441e",
+    "url": "/assets/portfolio/pampered_chef/consultants_corner/3.png"
+  },
+  {
     "revision": "684f9758532676203a5db691c386dc4f",
     "url": "/assets/portfolio/pampered_chef/offline_catalog/1.png"
   },
@@ -56,55 +68,43 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/portfolio/rrd/3.png"
   },
   {
-    "revision": "507ea3964050974611f4",
-    "url": "/bundle.507ea.js"
+    "revision": "7564f45d2c3132a6a0ca",
+    "url": "/bundle.7aa44.esm.js"
   },
   {
-    "revision": "507ea3964050974611f4",
+    "revision": "7564f45d2c3132a6a0ca",
     "url": "/bundle.9f062.css"
   },
   {
-    "revision": "af3d5b97a0727b08bbf0629ed9e03a26",
+    "revision": "a8405938316f3db2e5da3f7530d0e0f3",
     "url": "/index.html"
   },
   {
     "revision": "bb23adb3c9bfbb7f047f",
-    "url": "/polyfills.bb23a.js"
-  },
-  {
-    "revision": "61f2cd78d19fcd0af520",
-    "url": "/route-home.chunk.61f2c.js"
+    "url": "/polyfills.06b13.esm.js"
   },
   {
     "revision": "61f2cd78d19fcd0af520",
     "url": "/route-home.chunk.b2113.css"
   },
   {
+    "revision": "61f2cd78d19fcd0af520",
+    "url": "/route-home.chunk.ba3da.esm.js"
+  },
+  {
     "revision": "c42e15a55d7b98d811cc",
-    "url": "/route-resume.chunk.c42e1.js"
+    "url": "/route-resume.chunk.00fc9.esm.js"
   },
   {
     "revision": "c42e15a55d7b98d811cc",
     "url": "/route-resume.chunk.d38c9.css"
   },
   {
-    "revision": "9367cd052f1fb48c7021",
+    "revision": "dd1cab84cfd3f2855f39",
     "url": "/route-work.chunk.3dfe0.css"
   },
   {
-    "revision": "9367cd052f1fb48c7021",
-    "url": "/route-work.chunk.9367c.js"
-  },
-  {
-    "revision": "13b82ed03d648451c57be206f75f0216",
-    "url": "/sw-debug.js"
-  },
-  {
-    "revision": "857075771236c38d673009b57d698524",
-    "url": "/sw-esm.js"
-  },
-  {
-    "revision": "bfc5bd18885255982238f3628770f48d",
-    "url": "/sw.js"
+    "revision": "dd1cab84cfd3f2855f39",
+    "url": "/route-work.chunk.40e68.esm.js"
   }
 ]);
