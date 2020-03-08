@@ -1,10 +1,10 @@
 import { h, Fragment } from 'preact';
 import style from './style';
-import Header from '../../components/header';
+// import Header from '../../components/header';
 
 const Home = () => (
 	<Fragment>
-		<Header />
+		{/* <Header /> */}
 		<div class={style.home}>
 		<section class="intro-text">
 			<p>

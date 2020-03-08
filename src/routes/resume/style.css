@@ -5,3 +5,12 @@
 	max-height: 22in; */
 	box-sizing: border-box;
 }
+
+.pdfLinkWrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+.pdfLinkWrapper a{
+	text-decoration: none;
+   padding: 5px;
+}
