@@ -41,11 +41,21 @@
    width: 100%;
 }
 
+.modalHeader{
+   display: flex;
+   justify-content: space-between;
+}
+
 .title,
 .tech {
    display: flex;
    justify-content: center;
    padding: 15px;
+}
+
+.close{
+   padding: 15px;
+
 }
 
 .tech {
