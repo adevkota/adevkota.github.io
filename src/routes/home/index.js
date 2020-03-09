@@ -20,8 +20,8 @@ const Home = () => (
 				I also have experience with node/express and familiarity with python.
 			</p>
 			<p>
-				Contact me on <a target="_self"href="https://www.linkedin.com/in/tosh-sharma" native>LinkedIn</a> or 
-				check out my <a target="_self"href="https://github.com/adevkota" native>GitHub</a>.
+				Contact me on <a className={style.link} target="_self"href="https://www.linkedin.com/in/tosh-sharma" native>LinkedIn<span class="icon-external-link"></span></a> or 
+				check out my <a  className={style.link} target="_self"href="https://github.com/adevkota" native>GitHub<span class="icon-external-link"></span></a>.
 			
 			</p>
 		</section>
