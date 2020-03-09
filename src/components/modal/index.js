@@ -8,12 +8,12 @@ const reducer = (state, action) => {
 			return state.imageIndexToDisplay === action.data ? {imageIndexToDisplay: 0} : {imageIndexToDisplay: state.imageIndexToDisplay + 1}
 		case 'decrement': 
 			return state.imageIndexToDisplay === 0 ? {imageIndexToDisplay: action.data - 1} : {imageIndexToDisplay: state.imageIndexToDisplay - 1};
-		default: return {imageIndexToDisplay: 0};
+		default:
+			return {imageIndexToDisplay: 0};
 	}
 };
 const Modal = ({ onClose, showSelf, imageUrls, projectName, companyName, tech }) => {
 	const [{imageIndexToDisplay}, dispatch] = useReducer(reducer, {imageIndexToDisplay: 0});
-	console.log("*******", imageIndexToDisplay);
 	return (
 		showSelf ?
 			<div className={style.Modal} >
