@@ -30,6 +30,8 @@
 
 .currentImage{
    max-width: 80%;
+   max-height: 500px;
+   overflow: hidden;
    /* border: 1px solid lightgray; */
    /* border-radius: 5px; */
    box-shadow: bisque;
@@ -43,9 +45,12 @@
 
 .modalHeader{
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
 }
 
+.companyName{
+   padding-left: 5px;
+}
 .title,
 .tech {
    display: flex;
@@ -55,7 +60,22 @@
 
 .close{
    padding: 15px;
+   font-size: 1.5rem;
+   cursor: pointer;
+}
 
+.imageCarousel{
+   display: flex;
+}
+
+.nextImage, 
+.previousImage{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   cursor: pointer;
 }
 
 .tech {
