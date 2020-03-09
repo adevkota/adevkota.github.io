@@ -2,16 +2,16 @@ import { h, Fragment } from "preact";
 import Header from "../../components/header";
 import style from "./style";
 import Tile from "../../components/tile";
-const Work = () => {
+const Portfolio = () => {
 	return (
 		<Fragment>
 			<Header />
-			<div className={style.work}>
+			<div className={style.Portfolio}>
 				<div className={style.tileWrapper}>
 					<Tile 
 						{...{
 							shortDescription: "Offline first shareable product catalog",
-							projectName:"Shareable Catalog",
+							projectName:"Consultant Product Catalog",
 							companyName: "Pampered Chef",
 							imageUrls: [
 								"/assets/portfolio/pampered_chef/offline_catalog/1.png",
@@ -34,7 +34,7 @@ const Work = () => {
 								"/assets/portfolio/pampered_chef/consultants_corner/2.png",
 								"/assets/portfolio/pampered_chef/consultants_corner/3.png",
 							],
-							tech: "Angular (8), Jasmine, Karma, Protractor, Cucumber"
+							tech: "Angular(8), Jasmine, Karma, Protractor, Cucumber"
 						}}/>
 				</div>
 				<div className={style.tileWrapper}>
@@ -48,7 +48,7 @@ const Work = () => {
 								"/assets/portfolio/rrd/2.png",
 								"/assets/portfolio/rrd/3.png",
 							],
-							tech: "Angular (1), Mocha, Sinon, Protractor, d3"
+							tech: "Angular(1), Mocha, Sinon, Protractor, d3"
 						}}/>
 				</div>
 			</div>
@@ -56,4 +56,4 @@ const Work = () => {
 	)
 }
 
-export default Work;
+export default Portfolio;
