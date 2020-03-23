@@ -68,15 +68,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/portfolio/rrd/3.png"
   },
   {
-    "revision": "b8af353076700bc42d86",
+    "revision": "8643dde11e5a0e1d0813",
+    "url": "/bundle.8643d.js"
+  },
+  {
+    "revision": "8643dde11e5a0e1d0813",
     "url": "/bundle.a7f8f.css"
   },
   {
-    "revision": "b8af353076700bc42d86",
-    "url": "/bundle.b8af3.js"
-  },
-  {
-    "revision": "bd00e499a6fb0052d3a334391222dbdc",
+    "revision": "03d5831a9dcd67d4d685bc5ff548e449",
     "url": "/index.html"
   },
   {
@@ -92,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/route-home.chunk.33f6f.css"
   },
   {
-    "revision": "a7c37724ebdc98fbab14",
-    "url": "/route-portfolio.chunk.a7c37.js"
+    "revision": "fe8524cded30cce53008",
+    "url": "/route-portfolio.chunk.a3bef.css"
   },
   {
-    "revision": "a7c37724ebdc98fbab14",
-    "url": "/route-portfolio.chunk.c665b.css"
+    "revision": "fe8524cded30cce53008",
+    "url": "/route-portfolio.chunk.fe852.js"
   },
   {
     "revision": "99227e4f1d5d0f0e6f26",
@@ -112,7 +112,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sw-debug.js"
   },
   {
-    "revision": "7941e57fad44c09aec499caba4a2ac10",
+    "revision": "a91958dc2f430b7ef581d033f73a7c86",
     "url": "/sw-esm.js"
   },
   {
